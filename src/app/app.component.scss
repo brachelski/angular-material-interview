@@ -1,0 +1,23 @@
+:host {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  mat-card {
+    flex-direction: column;
+    margin: auto;
+    border: solid 1px red;
+
+    mat-card-title {
+      display: flex;
+      justify-content: center;
+      margin: 0 5rem 30% 5rem;
+    }
+
+    button {
+      display: flex;
+      margin: auto;
+      justify-content: flex-end;
+    }
+  }
+}
