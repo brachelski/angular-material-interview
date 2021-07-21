@@ -67,7 +67,7 @@ describe('AppComponent', () => {
         expect(await (await buttonHarness.host()).getAttribute('color')).toEqual('accent');
       });
 
-      it('should click', async () => {
+      it('should change card title when clicking button', async () => {
         await buttonHarness.click();
         expect(await matCardHarness.getTitleText()).toEqual('Button Clicked 1 Time!');
       });
