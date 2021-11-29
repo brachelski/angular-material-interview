@@ -7,12 +7,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Steps For This Interview
-1. Create Mat Card 
+1. Create Mat Card
    - Test for truthyness
 2. Add Title to Mat Card
    - Test for Text (Button Not Clicked)
 3. Add Button to Mat Card
    - Test for truthyness
+   - mat-raised-button
 4. Add Text To Button
    - Test for Text (Click Me!)
 5. Set Button Color to Accent
